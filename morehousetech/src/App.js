@@ -8,6 +8,8 @@ class App extends Component {
           <Screen style={{alignItems: 'center', justifyContent: 'center'}}>
             <Title>Ibrahim</Title>
             <Divider />
+            <Title>Jorja Smith</Title>
+            <Divider />
           </Screen>
         );
     }

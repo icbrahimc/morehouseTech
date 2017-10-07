@@ -38,6 +38,9 @@ const user = (state=defaultUser, action) => {
               authorizing: false,
               authorized: false
           });
-      break;
+      default:
+          return state;
   }
 }
+
+export default user;
